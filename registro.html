@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo" style="font-size: 30px; padding-bottom: 30px;">
+            Christian Petersen
+        </div>
+        <nav class="nav" style="font-family: helvetica;">
+            <a href="index.html">Inicio</a>
+            <a href="acerca_de_christian.html">Acerca de Christian</a>
+            <a href="recetas.html">Recetas</a>
+            <a href="restaurant.html">Restaurant</a>
+            <a href="inicio_de_sesion.html">Inicio de sesión</a>
+        </nav>
+    </header>
+    <main class="register-content">
+        <h2>Registrarse</h2>
+        <form class="register-form">
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <label for="confirm-password">Confirmar Contraseña:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+            
+            <button type="submit">Registrarse</button>
+        </form>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

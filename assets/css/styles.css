@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.quote {
+    max-width: 50%;
+    text-align: left;
+}
+
+.quote p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.quote cite {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.image {
+    max-width: 72%;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.login-content {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-family: 'Alumni Sans', sans-serif;
+}
+
+.login-content h2 {
+    text-align: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.login-form input {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button {
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #333;
+}
+
+.login-form .forgot-password {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+.login-form .forgot-password:hover {
+    text-decoration: underline;
+}
+
+.login-form .register-button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form .register-button:hover {
+    background-color: #ddd;
+}
+
+.reset-content {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-family: 'Alumni Sans', sans-serif;
+}
+
+.reset-content h2 {
+    text-align: center;
+}
+
+.reset-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.reset-form label {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.reset-form input {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.reset-form button {
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reset-form button:hover {
+    background-color: #333;
+}
+
+.register-content {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-family: 'Alumni Sans', sans-serif;
+}
+
+.register-content h2 {
+    text-align: center;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form label {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.register-form input {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.register-form button {
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-form button:hover {
+    background-color: #333;
+}
